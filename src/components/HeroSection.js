@@ -7,7 +7,7 @@ function HeroSection() {
     <div className='hero-container'>
         <video src="/videos/video-1.mp4" autoPlay loop muted />
         <h1> ENDING FFOOD WASTE</h1>
-        <p>What are you waiting for? Join us!</p>
+        <p>What are you waiting for? Join us! Hi</p>
         <div className='here-btns'>
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                 SIGN UP
