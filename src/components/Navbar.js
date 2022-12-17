@@ -42,6 +42,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link to='/search' className='nav-links' onClick={closeMobileMenu}>
+                <p>Search <i class="fa-solid fa-magnifying-glass"></i> </p>
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link
                 to='/services'
                 className='nav-links'
