@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import './AddProduct.css';
 import { useState } from 'react';
 
 const Create = () => {

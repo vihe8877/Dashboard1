@@ -7,8 +7,8 @@ video {
   }
   
   .hero-container {
-    background: url('C:\Users\vihe8\website\public\Grillic_logo.png') center center/cover no-repeat;
-    height: 100vh;
+    background: url('C:/Users/vihe8/website/public/images/Banner.jpg') center center/cover no-repeat;
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;

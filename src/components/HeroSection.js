@@ -5,7 +5,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <h1> ENDING FFOOD WASTE</h1>
+        <h1> ENDING FOOD WASTE</h1>
         <p>What are you waiting for? Join us! Hi</p>
         <div className='here-btns'>
             <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
