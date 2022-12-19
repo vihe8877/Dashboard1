@@ -37,9 +37,6 @@ const Create = () => {
         onChange={(e) => setCost(e.target.value)}
         />
         <button>Post</button>
-        <p>{name}</p>
-        <p>{description}</p>
-        <p>{cost}</p>
       </form>
     </div>
   )
