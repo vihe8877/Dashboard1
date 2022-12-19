@@ -3,9 +3,9 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import AddProduct from './components/pages/AddProduct';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />}/>
-          <Route exact path='/services' element={<Services />} />
+          <Route exact path='/addproduct' element={<AddProduct />} />
           <Route exact path='/products' element={<Products/>} />
           <Route exact path='/sign-up' element={<SignUp/>} />
         </Routes>
